@@ -5,7 +5,8 @@
   "scripts": {
     "build": "rescript build",
     "start": "rescript build -w",
-    "clean": "rescript clean"
+    "clean": "rescript clean",
+    "format": "rescript format"
   },
   "keywords": [
     "Rescript",
@@ -14,7 +15,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/idkjs/reason-transition-group"
+    "url": "https://github.com/idkjs/rescript-transition-group"
   },
   "license": "MIT",
   "devDependencies": {
