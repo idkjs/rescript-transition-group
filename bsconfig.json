@@ -1,0 +1,24 @@
+{
+  "name": "rescript-transition-group",
+  "version": "0.1.0",
+  "reason": {
+    "react-jsx": 3
+  },
+  "sources": {
+    "dir": "src",
+    "subdirs": true
+  },
+  "package-specs": [
+    {
+      "module": "commonjs",
+      "in-source": true
+    }
+  ],
+  "bs-dependencies": ["@rescript/react"],
+  "warnings": {
+    "error": "+101"
+  },
+  "namespace": true,
+  "suffix": ".bs.js"
+
+}

@@ -1,0 +1,27 @@
+{
+  "name": "rescript-transition-group",
+  "version": "4.4.1",
+  "description": "Rescript bindings for react-transition-group",
+  "scripts": {
+    "build": "rescript build",
+    "start": "rescript build -w",
+    "clean": "rescript clean"
+  },
+  "keywords": [
+    "Rescript",
+    "ReasonReact",
+    "Transition"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/idkjs/reason-transition-group"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@rescript/react": "^0.10.2",
+    "rescript": "^9.1.1"
+  },
+  "dependencies": {
+    "react-transition-group": "^4.4.1"
+  }
+}

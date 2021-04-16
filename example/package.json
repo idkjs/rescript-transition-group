@@ -1,0 +1,32 @@
+{
+  "name": "example",
+  "version": "0.1.0",
+  "scripts": {
+    "build": "rescript build",
+    "start": "rescript build -w",
+    "clean": "rescript clean",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "webpack": "webpack -w",
+    "webpack:production": "NODE_ENV=production webpack",
+    "server": "webpack serve",
+    "postinstall": "rescript build"
+  },
+  "keywords": [ "Rescript" ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@rescript/react": "^0.10.2",
+    "bs-css": "^14.0.1",
+    "bs-css-emotion": "^2.5.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "rescript-transition-group": "../"
+  },
+  "devDependencies": {
+    "rescript": "^9.1.1",
+    "html-webpack-plugin": "^5.3.1",
+    "webpack": "^5.33.2",
+    "webpack-cli": "^4.6.0",
+    "webpack-dev-server": "^3.11.2"
+  }
+}
